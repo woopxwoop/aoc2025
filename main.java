@@ -9,8 +9,8 @@ class Main {
   public static void main(String[] args) throws java.io.IOException {
 
     // Load the data file, then call problem 1 & 2 for this day
-    List<String> d1 = Files.readAllLines(Paths.get("07.txt"));
-    System.out.println("01.1: " + Day07.p1(d1));
-    System.out.println("01.2: " + Day07.p2(d1));
+    List<String> d1 = Files.readAllLines(Paths.get("08.txt"));
+    System.out.println("01.1: " + Day08.p1(d1));
+    System.out.println("01.2: " + Day08.p2(d1));
   }
 }
